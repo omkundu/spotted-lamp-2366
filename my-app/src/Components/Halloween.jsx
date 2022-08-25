@@ -65,20 +65,7 @@ function Halloween() {
               <div>
               </div>
        {/* Halloween_Page_start */}
-       {/* <div style={{width:"50%",height:"44px",border:"1px solid grey",marginLeft:"25%",marginTop:"2rem"}}>
-       <div style={{textAlign:"center",marginTop:"3rem"}}>
-         <Stack spacing={3}>
-        
-        <Text fontSize='19px' 
-            marginTop="3rem">
-            Copyright © 1999-2022 GoDaddy, LLC. All rights reserved.
-            </Text>
-        </Stack>
-         </div>
-
-
-         
-       </div> */}
+      
 
 <div style={{width:"60%",
             marginTop:"2rem",
@@ -128,8 +115,12 @@ function Halloween() {
           marginLeft:"35%",
           marginTop:"3rem",
           borderRadius:"5px",
-          backgroundColor:"#4285f4"}}>
-            <p style={{fontSize:"24px",color:"#ffffff",fontWeight:"bold",marginTop:"1.2rem",marginLeft:"1.3rem",cursor:"pointer"}}>➤ Visit Website</p>
+          backgroundColor:"#4285f4",
+          // _hover={{backgroundColor:"#2a56c6"}}
+          
+          
+          }}>
+            <p style={{fontSize:"24px",color:"#ffffff",fontWeight:"bold",marginTop:"1.2rem",marginLeft:"1.3rem",cursor:"pointer",}}>➤ Visit Website</p>
 {/* First-Div-end */}
           </div>
           <div>
@@ -150,6 +141,8 @@ marginLeft:"36.5%",
 fontSize:"22px",
 color:"blue",
 cursor:"pointer",
+
+
 }}>at Amazon India - India's largest online store</p>
 </div>
 
