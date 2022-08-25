@@ -13,9 +13,11 @@ function FrontMainBody() {
          border:"1px solid grey",
          marginLeft:"22%",
          MarginTop:"2rem",
-         height:"500px"}}>
+         height:"500px",
+         
+         }}>
             {/* First Child Div Start */}
-            <div style={{marginLeft:"2rem",marginTop:"0.2rem"}}>
+            <div style={{marginLeft:"2rem",marginTop:"0.2rem",}}>
               <h1 style={{color:"grey"}}>Related Searches</h1>
             </div>
           <div>
@@ -29,6 +31,7 @@ function FrontMainBody() {
           height="22%"
           textAlign="center"
           cursor="pointer"
+          _hover={{backgroundColor:"#2a56c6"}}
           
      
           
@@ -64,6 +67,7 @@ function FrontMainBody() {
           height="22%"
           textAlign="center"
           cursor="pointer"
+          _hover={{backgroundColor:"#2a56c6"}}
            >
           <h1 style={{marginTop:"-3rem",fontSize:"28px"}}>Menu</h1>  
             {/* First Child Div end */}
@@ -98,6 +102,7 @@ function FrontMainBody() {
           height="22%"
           textAlign="center"
           cursor="pointer"
+          _hover={{backgroundColor:"#2a56c6"}}
            >
           <h1 style={{marginTop:"-3rem",fontSize:"28px"}}>Express Menu</h1>  
             {/* First Child Div end */}

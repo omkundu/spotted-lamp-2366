@@ -17,7 +17,7 @@ function Navbar() {
         {/* front-Page navbar start */}
         <>
         <div>
-         <Box bg='#9eccdf'
+        <Box bg='#9eccdf'
           w='100%'
            h="15rem"
             p={4}>
@@ -25,7 +25,8 @@ function Navbar() {
           alt="" 
           srcset=""  
           style={{width:"12%",
-          marginLeft:"10rem"
+          marginLeft:"10rem",
+          cursor:"pointer"
           }}/>
 
               <Stack 
@@ -61,7 +62,9 @@ function Navbar() {
                    <button onClick={handleChange} 
                   style={{color:"white",
                   paddingLeft:"1.8rem" ,
-                  paddingTop:"0.3rem"}}>
+                  paddingTop:"0.3rem",
+                 
+                  }}>
                   Get This Domain</button></Link>
 
 
