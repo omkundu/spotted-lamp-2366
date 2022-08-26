@@ -26,7 +26,9 @@ function Navbar() {
           srcset=""  
           style={{width:"12%",
           marginLeft:"10rem",
-          cursor:"pointer"
+          cursor:"pointer",
+          
+          
           }}/>
 
               <Stack 

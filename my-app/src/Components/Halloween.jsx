@@ -2,6 +2,13 @@ import { Box, Stack } from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Text } from '@chakra-ui/react'
+import styled from 'styled-components'
+
+// const CssChanged=styled.div`
+// :hover{
+//   color:red;
+// }
+// `
 function Halloween() {
     
         
@@ -120,7 +127,7 @@ function Halloween() {
           
           
           }}>
-            <p style={{fontSize:"24px",color:"#ffffff",fontWeight:"bold",marginTop:"1.2rem",marginLeft:"1.3rem",cursor:"pointer",}}>➤ Visit Website</p>
+            <p style={{fontSize:"24px",color:"#ffffff",fontWeight:"bold",marginTop:"1.2rem",marginLeft:"1.3rem",cursor:"pointer",_hover:{background:"red"}}}>➤ Visit Website</p>
 {/* First-Div-end */}
           </div>
           <div>
