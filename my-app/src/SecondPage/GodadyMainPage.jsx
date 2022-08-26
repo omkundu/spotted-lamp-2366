@@ -1,6 +1,8 @@
 import { color } from '@chakra-ui/react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import SecondPageBody from './SecondPageBody'
+import FooterPart from './FooterPart'
 
 function GodadyMainPage() {
   return (
@@ -16,7 +18,7 @@ function GodadyMainPage() {
         marginTop:"1rem",
         cursor:"pointer"
         }}>
-      <img  src="https://assets.website-files.com/5ee732bebd9839b494ff27cd/60420a6a768b97a8aa78f8d6_3c4godaddy-logo-1-1__2160.png" />
+     <Link to="/"> <img  src="https://assets.website-files.com/5ee732bebd9839b494ff27cd/60420a6a768b97a8aa78f8d6_3c4godaddy-logo-1-1__2160.png" /></Link>
         </div>
         <div>
        <img style={{marginLeft:"19%",marginTop:"-3.2rem",width:"3%",cursor:"pointer"}} src="https://img.shop.com/Image/resources/images/icon-menu-24px.svg" alt="" srcset="" />
@@ -42,7 +44,7 @@ function GodadyMainPage() {
           <p >Blog</p>
           <p >Help</p>
           <p>Sign in </p>
-          <img src="https://img.shop.com/Image/resources/images/icon-shopping-cart-24px.svg" alt="" srcset=""  style={{width:"10%",marginTop:"-0.5rem"}}/>
+          <img src="https://cdn-icons-png.flaticon.com/128/2838/2838895.png" alt="" srcset=""  style={{width:"7%",marginTop:"2px",height:"25px"}}/>
       </div>
 
       {/* ........................SearchBar...................... */}
@@ -82,6 +84,7 @@ function GodadyMainPage() {
     </div>
       </div>
       <SecondPageBody/>
+      <FooterPart/>
       
       
       

@@ -11,6 +11,7 @@ function SecondPageBody() {
         color='white'
         height="380px"
         marginLeft="17%"
+        // border="1px solid teal"
          
         >
         {/* This is the Box */}
@@ -55,7 +56,7 @@ function SecondPageBody() {
         </Box>
 {/* ...............................box Closed............................. */}
         
-<Box  w='40%' p={4} color='white'
+<Box  w='50%' p={4} color='white'
 //  border="1px solid teal"
  marginTop="2rem"
  height="60px"
@@ -63,17 +64,22 @@ function SecondPageBody() {
  
  >
   {/* This is the Box */}
+  <div>
   <p style={{
-    color:"#2ed576",
+    color:"green",
     fontWeight:"bold",
     }}>See how it works
     </p>
   <p style={{
-    color:"#2ed576",
+    color:"green",
     fontWeight:"bold",
     marginLeft:"12rem",
-    marginTop:"-1.5rem"
+    marginTop:"-1.5rem",
+    fontSize:"15px"
     }}>Watch this quick video</p>
+
+  </div>
+  
 </Box>
 
 
@@ -155,11 +161,169 @@ color='white'
 
 </Box>
 
+        </Box>
+        {/* ............................................................second-Page-body-done........................................... */}
+
+
+
+
+        <Box  w='67%' p={4} 
+        color='white'
+         marginLeft="17%"
+          height="650px"
+          // border="1px solid teal"
+          
+          >
+        {/* This is main div */}
+
+        {/* 1st-div */}
+        {/* <div ></div> */}
+
+      <div style={{width:"100%",height:"100px",}}>
+      <div style={{width:"25%",height:"70px",marginLeft:"4%",marginTop:"1rem"}}>
+        <h1 style={{color:"black",marginTop:"1rem" ,fontSize:"20px",fontWeight:"bold"}}>foodxprs.in</h1>
+        <div style={{width:"40%",border:"1px solid grey",height:"20px",borderRadius:"30%",marginLeft:"63%",marginTop:"-20px"}}>
+          <p style={{color:"grey",fontFamily:"sans-serif",fontSize:"9px",marginLeft:"0.5rem"}}> Restrictions apply</p> 
+        </div>
+      </div>
+
+
+      <div style={{width:"28%",height:"70px",marginLeft:"71.6%",marginTop:"-4.4rem",}}>
+        <h1 style={{color:"green",marginLeft:"9%",fontSize:"20px",fontWeight:"bold"}}>₹ 149.00</h1>
+        <p style={{color:"grey",fontSize:"14px",textDecoration:"line-through",cursor:"pointer",marginTop:"-1.6rem",marginLeft:"40%",fontWeight:"bold"}}>₹ 699.00</p>
+       <p style={{color:"grey",fontSize:"9px",marginTop:"0.5rem",fontWeight:"bold"}}>for the first year with a 2 year registration</p>
+        <div style={{width:"35%",height:"70px",marginLeft:"65%",marginTop:"-3rem"}}>
+          <img src="https://cdn-icons-png.flaticon.com/128/2838/2838895.png" alt="" srcset="" style={{width:"30%",marginTop:"1rem",marginLeft:"1.7rem",cursor:"pointer"}} />
+        </div>
+      </div>
+
+
+
+        <div style={{width:"100%",backgroundColor:"grey",border:"1px solid grey",marginTop:"10px"}}></div>
+      </div>
+
+        {/* 2nd-div */}
+
+      <div style={{width:"100%",height:"100px",marginTop:"2rem"}}>
+      <div style={{width:"25%",height:"70px",marginLeft:"4%",marginTop:"1rem"}}>
+      <h1 style={{color:"black",marginTop:"1rem" ,fontSize:"20px",fontWeight:"bold"}}>foodxprs.co.in</h1>
+      </div>
+
+
+      <div style={{width:"28%",height:"70px",marginLeft:"72%",marginTop:"-4.4rem"}}>
+      <h1 style={{color:"green",marginLeft:"9%",fontSize:"20px",fontWeight:"bold"}}>₹ 99.00</h1>
+        <p style={{color:"grey",fontSize:"14px",textDecoration:"line-through",cursor:"pointer",marginTop:"-1.6rem",marginLeft:"40%",fontWeight:"bold"}}>₹ 649.00</p>
+       <p style={{color:"grey",fontSize:"9px",marginTop:"0.5rem",fontWeight:"bold"}}>for the first year with a 2 year registration</p>
+        <div style={{width:"35%",height:"70px",marginLeft:"65%",marginTop:"-3rem"}}>
+          <img src="https://cdn-icons-png.flaticon.com/128/2838/2838895.png" alt="" srcset="" style={{width:"30%",marginTop:"1rem",marginLeft:"1.7rem",cursor:"pointer"}} />
+        </div>
+      {/* <div style={{width:"40%",border:"1px solid red",height:"70px",marginLeft:"61%"}}></div> */}
+      </div>
+
+    
+
+        <div style={{width:"100%",backgroundColor:"grey",border:"1px solid grey",marginTop:"10px"}}></div>
+      </div>
+
+     {/* 3rd-div */}
+      <div style={{width:"100%",height:"100px",marginTop:"2rem"}}>
+
+      <div style={{width:"25%",height:"70px",marginLeft:"4%",marginTop:"1rem"}}>
+        <p style={{color:"grey"}}>Promoted</p>
+      <h1 style={{color:"black",marginTop:"0.1rem" ,fontSize:"20px",fontWeight:"bold"}}>foodxprs.shop</h1>
+      </div>
+      <div style={{width:"28%",height:"70px",marginLeft:"72%",marginTop:"-4.4rem"}}>
+
+      <h1 style={{color:"green",marginLeft:"9%",fontSize:"20px",fontWeight:"bold"}}>₹ 119.20</h1>
+        <p style={{color:"grey",fontSize:"14px",textDecoration:"line-through",cursor:"pointer",marginTop:"-1.6rem",marginLeft:"40%",fontWeight:"bold"}}>₹ 3,599.20</p>
+       <p style={{color:"grey",fontSize:"9px",marginTop:"0.5rem",fontWeight:"bold",marginLeft:"40%"}}>for the first year </p>
+        <div style={{width:"35%",height:"70px",marginLeft:"65%",marginTop:"-3rem"}}>
+          <img src="https://cdn-icons-png.flaticon.com/128/2838/2838895.png" alt="" srcset="" style={{width:"30%",marginTop:"1rem",marginLeft:"1.7rem",cursor:"pointer"}} />
+        </div>
+      {/* <div style={{width:"40%",border:"1px solid red",height:"70px",marginLeft:"61%"}}></div> */}
+      </div>
+
+
+
+
+        <div style={{width:"100%",backgroundColor:"grey",border:"1px solid grey",marginTop:"10px"}}></div>
+      </div>
+
+
+
+
+
+     {/* 4th-div */}
+
+      <div style={{width:"100%",height:"100px",marginTop:"2rem"}}>
+
+      <div style={{width:"25%",height:"70px",marginLeft:"4%",marginTop:"1rem"}}>
+    
+      <h1 style={{color:"black",marginTop:"1rem" ,fontSize:"20px",fontWeight:"bold"}}>foodxprs.co</h1>
+
+      </div>
+      <div style={{width:"28%",height:"70px",marginLeft:"72%",marginTop:"-4.4rem"}}>
+
+      <h1 style={{color:"green",marginLeft:"9%",fontSize:"20px",fontWeight:"bold"}}>₹ 299.00</h1>
+        <p style={{color:"grey",fontSize:"14px",textDecoration:"line-through",cursor:"pointer",marginTop:"-1.6rem",marginLeft:"40%",fontWeight:"bold"}}>₹ 2,299.00</p>
+       <p style={{color:"grey",fontSize:"9px",marginTop:"0.5rem",fontWeight:"bold"}}>for the first year with a 2 year registration</p>
+        <div style={{width:"35%",height:"70px",marginLeft:"65%",marginTop:"-3rem"}}>
+          <img src="https://cdn-icons-png.flaticon.com/128/2838/2838895.png" alt="" srcset="" style={{width:"30%",marginTop:"1rem",marginLeft:"1.7rem",cursor:"pointer"}} />
+        </div>
+
+
+
+
+
+
+      {/* <div style={{width:"40%",border:"1px solid red",height:"70px",marginLeft:"61%"}}></div> */}
+      </div>
+
+
+
+
+        <div style={{width:"100%",backgroundColor:"grey",border:"1px solid grey",marginTop:"10px"}}></div>
+      </div>
+
+
+      {/* 5th-div */}
+
+      <div style={{width:"100%",height:"100px",marginTop:"2rem"}}>
+      <div style={{width:"25%",height:"70px",marginLeft:"4%",marginTop:"1rem"}}>
+      <p style={{color:"grey"}}>Promoted</p>
+      <h1 style={{color:"black",marginTop:"0.1rem" ,fontSize:"20px",fontWeight:"bold"}}>foodxprs.me</h1>
+      </div>
+      <div style={{width:"28%",height:"70px",marginLeft:"72%",marginTop:"-4.4rem"}}>
+
+
+
+      <h1 style={{color:"green",marginLeft:"9%",fontSize:"20px",fontWeight:"bold"}}>₹ 539.00</h1>
+        <p style={{color:"grey",fontSize:"14px",textDecoration:"line-through",cursor:"pointer",marginTop:"-1.6rem",marginLeft:"40%",fontWeight:"bold"}}>₹ 1609.00</p>
+       <p style={{color:"grey",fontSize:"9px",marginTop:"0.5rem",fontWeight:"bold",marginLeft:"40%"}}>for the first year </p>
+        <div style={{width:"35%",height:"70px",marginLeft:"65%",marginTop:"-3rem"}}>
+          <img src="https://cdn-icons-png.flaticon.com/128/2838/2838895.png" alt="" srcset="" style={{width:"30%",marginTop:"1rem",marginLeft:"1.7rem",cursor:"pointer"}} />
+        </div>
+
+      {/* <div style={{width:"40%",border:"1px solid red",height:"70px",marginLeft:"61%"}}></div> */}
+      </div>
+
+
+
+
+
+
+
+        <div style={{width:"100%",backgroundColor:"grey",marginTop:"10px"}}></div>
+      </div>
+     
+
+
+
+
 
 
 
         </Box>
-        
 
         </>
     </div>
