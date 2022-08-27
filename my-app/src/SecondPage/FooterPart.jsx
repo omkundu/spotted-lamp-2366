@@ -47,7 +47,7 @@ function FooterPart() {
 
 
     {/* <div style={{width:"100%",border:"1px solid grey",height:"600px",backgroundColor:"black"}}> */}
-        <div style={{width:"15%",height:"450px",marginLeft:"22%",marginTop:"-34.5rem"}}>
+        <div style={{width:"15%",height:"450px",marginLeft:"22%",marginTop:"-34.5rem" }}>
             <div style={{width:"100%",height:"45px",}}>
                 <h1 style={{color:"white",fontFamily:"sans-serif",fontSize:"22px",textAlign:"center",cursor:"pointer"}}>Support</h1>
                 <p style={{color:"white",fontFamily:"sans-serif",fontSize:"16px" ,textAlign:"center",marginTop:"0.5rem",cursor:"pointer"}}>Product Support</p>

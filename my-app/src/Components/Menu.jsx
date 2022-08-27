@@ -1,7 +1,9 @@
 import React from 'react'
 import { Box, Stack } from '@chakra-ui/react'
 import { Text } from '@chakra-ui/react'
+
 import { Link } from "react-router-dom"
+
 
 function Menu() {
   return (
@@ -21,26 +23,37 @@ function Menu() {
                 alt="" 
                 srcset=""  
                 style={{width:"12%",
+
                 marginLeft:"10rem"
+
                 }}/>
       
                     <Stack 
                     spacing={3}>
                       <div style=
                       {{textAlign:"center",
+
                       fontWeight:"bold",
+
                       marginTop:"1rem"}}>
+
                       <Text fontSize='5xl'>
+
                         foodxprs.com
+
                         </Text>
+
                       </div>
       
       
       
                       <div style=
                       {{textAlign:"center",
+
                       fontWeight:"bold",
+
                       marginTop:"-0.5rem" ,
+                      
                       fontSize:"25px"}}>
                       <p style={{fontSize:"89%",
                       marginTop:"0.2rem"}}>
