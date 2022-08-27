@@ -118,11 +118,17 @@ function Halloween() {
           <div style=
           {{width:"28%",
           border:"5px solid #2a56c6",
+
           height:"80px",
+
           marginLeft:"35%",
+
           marginTop:"3rem",
+
           borderRadius:"5px",
+
           backgroundColor:"#4285f4",
+          
           // _hover={{backgroundColor:"#2a56c6"}}
           
           
